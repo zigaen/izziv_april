@@ -1,0 +1,106 @@
+.container, .container2 {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item3, .item1{
+    color: #909089;
+    text-align: center;
+}
+
+.item2, .title{
+    font-style: unset;
+    font-family: verdana;
+    text-decoration: none;
+    color: #909089;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.title{
+    border-top: 3px solid #b5b5b0;
+    border-bottom: 3px solid #b5b5b0;
+
+}
+
+button {
+    font-style: unset;
+    font-family: verdana;
+    font-size: 12px;
+    padding: 5px;
+    margin: 15px;
+    background-color: #6dbaca;
+    color: white;
+    height:40px;
+    width:80px;
+}
+
+.image{
+    width: 180px;
+}
+
+.banner {
+    background-color: #6dbaca;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color:white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #999999;
+    font-style: unset;
+    font-family: verdana;
+    font-size: 10px;
+}
+
+
+
+.sprite1{
+    background-position: -145px 425px;
+}
+.sprite2{
+    background-position: -85px 425px;
+}
+.sprite3{
+    background-position: -205px 425px;
+}
+.sprite4{
+    background-position: -260px 425px;
+}
+.sprite5{
+    background-position: -320px 425px;
+}
+.sprite6{
+    background-position: -370px 425px;
+}
+
+.sprite1, .sprite2, .sprite3, .sprite4, .sprite5, .sprite6{
+    background-image: url(../static/img/LR6bK.png);
+    background-size: 600px auto;
+    height: 30px;
+    width: 30px;
+}
